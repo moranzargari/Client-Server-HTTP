@@ -11,6 +11,7 @@ how to use it:
 *  ./client [–h] [–d time-interval] [URL]: The flags and the url can come at any order, the only limitation is that the time interval should come right after the flag –d.
 *  The URL format is http://hostname[:port]/filepath. 
 
+
 what the program does?
 1. Parse the <URL> given in the command line.
 2. Connect to the server.
@@ -18,6 +19,7 @@ what the program does?
 4. Send the HTTP request to server.
 5. Receive an HTTP response.
 6. Display the response on the screen. 
+  
   
 Additional functions for client.c:
 
@@ -44,6 +46,9 @@ defines:
 * TIMEBUF_SIZE -equal to 128
 * case_0 to case_5 - equal to 1-5, for switch case.
   
+
+
+
 
 ## HTTP Server
 In this programming assignment is to write HTTP server. This is not a full implement of HTTP specification, but only a very limited subset of it. 
